@@ -2,7 +2,9 @@ name: My First Workflow
 on: workflow_dispatch
 jobs:
   first-job:
-  runs-on: ubuntu-latest
-  steps:
-    - name: printing the statement1
-      run: echo "Hello GitHub Actions!"
+    runs-on: ubuntu-latest
+    steps:
+      - name: printing the statement1
+        run: echo "Hello GitHub Actions!"
+      - name: printing the statement1
+        run: echo "Hello GitHub Actions!"
